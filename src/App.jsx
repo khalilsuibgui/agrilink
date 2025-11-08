@@ -41,12 +41,6 @@ function Home() {
   return (
     <div style={{ padding: 30 }}>
       <h1>Bienvenue sur AgriLink 🌾</h1>
-      <p>
-        Les pages sont chargées automatiquement depuis <code>src/pages/</code>.
-      </p>
-      <p>
-        Ajoute un fichier dans <b>src/pages</b> (ex. <code>DashboardProducteur.jsx</code>) et il apparaîtra ici sans rien modifier !
-      </p>
     </div>
   );
 }

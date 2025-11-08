@@ -21,7 +21,6 @@ export default function PrototypeApropos() {
         <h2>L’équipe</h2>
         <ul>
           <li><strong>Souibgui Khalil</strong> — Étudiant ingénieur, concepteur du projet</li>
-          
         </ul>
       </section>
 
