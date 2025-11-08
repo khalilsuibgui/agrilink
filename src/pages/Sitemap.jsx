@@ -53,11 +53,13 @@ export default function Sitemap() {
           <TreeNode label={<div className="node small">Équipe</div>} />
         </TreeNode>
 
-        <TreeNode label={<div className="node">Aide / Légal</div>}>
-          <TreeNode label={<div className="node small">FAQ</div>} />
+        <TreeNode label={<div className="node">Légal</div>}>
           <TreeNode label={<div className="node small">CGU</div>} />
           <TreeNode label={<div className="node small">Confidentialité</div>} />
         </TreeNode>
+        <TreeNode label={<div className="node">Aide </div>}></TreeNode>
+          <TreeNode label={<div className="node small">FAQ</div>} />
+          <TreeNode label={<div className="node small">Contact</div>} />
       </Tree>
     </div>
   );
